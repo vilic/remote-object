@@ -1,0 +1,30 @@
+{
+  "$schema": "boilerplate.schema.json",
+  "boilerplate": "@mufan/code-boilerplates/typescript",
+  "options": {
+    "name": "remote-object-packages",
+    "license": "MIT",
+    "author": "vilicvane",
+    "defaultBranch": "master",
+    "packageManager": "pnpm",
+    "type": "module",
+    "badges": {
+      "license": true,
+      "discord": "https://discord.gg/vanVrDwSkS"
+    },
+    "packages": [
+      {
+        "name": "@remote-object/core",
+        "projects": [
+          {
+            "name": "library"
+          },
+          {
+            "name": "test",
+            "references": ["library"]
+          }
+        ]
+      }
+    ]
+  }
+}
