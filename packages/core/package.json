@@ -1,6 +1,9 @@
 {
   "name": "@remote-object/core",
   "version": "0.0.1-alpha.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "author": "vilicvane",
   "type": "module",
