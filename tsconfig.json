@@ -1,0 +1,11 @@
+{
+  "references": [
+    {
+      "path": "packages/core/src/library"
+    },
+    {
+      "path": "packages/core/src/test"
+    }
+  ],
+  "files": []
+}
